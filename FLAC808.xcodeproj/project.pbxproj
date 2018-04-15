@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A5AD1CF20833EEB0056FF34 /* 02 - Source Direct - Computer State.flac in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AD1CA20833EEB0056FF34 /* 02 - Source Direct - Computer State.flac */; };
+		4A5AD1D020833EEB0056FF34 /* 04 - Source Direct - Enemy Lines.flac in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AD1CB20833EEB0056FF34 /* 04 - Source Direct - Enemy Lines.flac */; };
+		4A5AD1D120833EEB0056FF34 /* 03 - Source Direct - Black Domina.flac in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AD1CC20833EEB0056FF34 /* 03 - Source Direct - Black Domina.flac */; };
+		4A5AD1D220833EEB0056FF34 /* 01. Лоси.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AD1CD20833EEB0056FF34 /* 01. Лоси.mp3 */; };
+		4A5AD1D320833EEB0056FF34 /* 01 - Source Direct - Call & Response.flac in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AD1CE20833EEB0056FF34 /* 01 - Source Direct - Call & Response.flac */; };
+		4AE7CCE4207E4E8200B5A434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE7CCE3207E4E8200B5A434 /* AppDelegate.swift */; };
+		4AE7CCE6207E4E8200B5A434 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE7CCE5207E4E8200B5A434 /* FirstViewController.swift */; };
+		4AE7CCE8207E4E8300B5A434 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE7CCE7207E4E8300B5A434 /* SecondViewController.swift */; };
+		4AE7CCEB207E4E8300B5A434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE7CCE9207E4E8300B5A434 /* Main.storyboard */; };
+		4AE7CCED207E4E8400B5A434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE7CCEC207E4E8400B5A434 /* Assets.xcassets */; };
+		4AE7CCF0207E4E8400B5A434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE7CCEE207E4E8400B5A434 /* LaunchScreen.storyboard */; };
+		4AE7CCFB207E4E8400B5A434 /* FLAC808Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE7CCFA207E4E8400B5A434 /* FLAC808Tests.swift */; };
+		4AE7CD06207E4E8400B5A434 /* FLAC808UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE7CD05207E4E8400B5A434 /* FLAC808UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AE7CCF7207E4E8400B5A434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AE7CCD8207E4E8200B5A434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AE7CCDF207E4E8200B5A434;
+			remoteInfo = FLAC808;
+		};
+		4AE7CD02207E4E8400B5A434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AE7CCD8207E4E8200B5A434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AE7CCDF207E4E8200B5A434;
+			remoteInfo = FLAC808;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A5AD1CA20833EEB0056FF34 /* 02 - Source Direct - Computer State.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = "02 - Source Direct - Computer State.flac"; sourceTree = "<group>"; };
+		4A5AD1CB20833EEB0056FF34 /* 04 - Source Direct - Enemy Lines.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = "04 - Source Direct - Enemy Lines.flac"; sourceTree = "<group>"; };
+		4A5AD1CC20833EEB0056FF34 /* 03 - Source Direct - Black Domina.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = "03 - Source Direct - Black Domina.flac"; sourceTree = "<group>"; };
+		4A5AD1CD20833EEB0056FF34 /* 01. Лоси.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01. Лоси.mp3"; sourceTree = "<group>"; };
+		4A5AD1CE20833EEB0056FF34 /* 01 - Source Direct - Call & Response.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 - Source Direct - Call & Response.flac"; sourceTree = "<group>"; };
+		4AE7CCE0207E4E8200B5A434 /* FLAC808.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLAC808.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE7CCE3207E4E8200B5A434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AE7CCE5207E4E8200B5A434 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4AE7CCE7207E4E8300B5A434 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4AE7CCEA207E4E8300B5A434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AE7CCEC207E4E8400B5A434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AE7CCEF207E4E8400B5A434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AE7CCF1207E4E8400B5A434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE7CCF6207E4E8400B5A434 /* FLAC808Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLAC808Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE7CCFA207E4E8400B5A434 /* FLAC808Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLAC808Tests.swift; sourceTree = "<group>"; };
+		4AE7CCFC207E4E8400B5A434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE7CD01207E4E8400B5A434 /* FLAC808UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLAC808UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE7CD05207E4E8400B5A434 /* FLAC808UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLAC808UITests.swift; sourceTree = "<group>"; };
+		4AE7CD07207E4E8400B5A434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AE7CCDD207E4E8200B5A434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE7CCF3207E4E8400B5A434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE7CCFE207E4E8400B5A434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A5AD1C920833EEB0056FF34 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				4A5AD1CA20833EEB0056FF34 /* 02 - Source Direct - Computer State.flac */,
+				4A5AD1CB20833EEB0056FF34 /* 04 - Source Direct - Enemy Lines.flac */,
+				4A5AD1CC20833EEB0056FF34 /* 03 - Source Direct - Black Domina.flac */,
+				4A5AD1CD20833EEB0056FF34 /* 01. Лоси.mp3 */,
+				4A5AD1CE20833EEB0056FF34 /* 01 - Source Direct - Call & Response.flac */,
+			);
+			path = songs;
+			sourceTree = SOURCE_ROOT;
+		};
+		4AE7CCD7207E4E8200B5A434 = {
+			isa = PBXGroup;
+			children = (
+				4AE7CCE2207E4E8200B5A434 /* FLAC808 */,
+				4AE7CCF9207E4E8400B5A434 /* FLAC808Tests */,
+				4AE7CD04207E4E8400B5A434 /* FLAC808UITests */,
+				4AE7CCE1207E4E8200B5A434 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AE7CCE1207E4E8200B5A434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AE7CCE0207E4E8200B5A434 /* FLAC808.app */,
+				4AE7CCF6207E4E8400B5A434 /* FLAC808Tests.xctest */,
+				4AE7CD01207E4E8400B5A434 /* FLAC808UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AE7CCE2207E4E8200B5A434 /* FLAC808 */ = {
+			isa = PBXGroup;
+			children = (
+				4AE7CCE3207E4E8200B5A434 /* AppDelegate.swift */,
+				4AE7CCE5207E4E8200B5A434 /* FirstViewController.swift */,
+				4AE7CCE7207E4E8300B5A434 /* SecondViewController.swift */,
+				4AE7CCE9207E4E8300B5A434 /* Main.storyboard */,
+				4AE7CCEC207E4E8400B5A434 /* Assets.xcassets */,
+				4AE7CCEE207E4E8400B5A434 /* LaunchScreen.storyboard */,
+				4AE7CCF1207E4E8400B5A434 /* Info.plist */,
+				4A5AD1C920833EEB0056FF34 /* songs */,
+			);
+			path = FLAC808;
+			sourceTree = "<group>";
+		};
+		4AE7CCF9207E4E8400B5A434 /* FLAC808Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4AE7CCFA207E4E8400B5A434 /* FLAC808Tests.swift */,
+				4AE7CCFC207E4E8400B5A434 /* Info.plist */,
+			);
+			path = FLAC808Tests;
+			sourceTree = "<group>";
+		};
+		4AE7CD04207E4E8400B5A434 /* FLAC808UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AE7CD05207E4E8400B5A434 /* FLAC808UITests.swift */,
+				4AE7CD07207E4E8400B5A434 /* Info.plist */,
+			);
+			path = FLAC808UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AE7CCDF207E4E8200B5A434 /* FLAC808 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AE7CD0A207E4E8400B5A434 /* Build configuration list for PBXNativeTarget "FLAC808" */;
+			buildPhases = (
+				4AE7CCDC207E4E8200B5A434 /* Sources */,
+				4AE7CCDD207E4E8200B5A434 /* Frameworks */,
+				4AE7CCDE207E4E8200B5A434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLAC808;
+			productName = FLAC808;
+			productReference = 4AE7CCE0207E4E8200B5A434 /* FLAC808.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AE7CCF5207E4E8400B5A434 /* FLAC808Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AE7CD0D207E4E8400B5A434 /* Build configuration list for PBXNativeTarget "FLAC808Tests" */;
+			buildPhases = (
+				4AE7CCF2207E4E8400B5A434 /* Sources */,
+				4AE7CCF3207E4E8400B5A434 /* Frameworks */,
+				4AE7CCF4207E4E8400B5A434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AE7CCF8207E4E8400B5A434 /* PBXTargetDependency */,
+			);
+			name = FLAC808Tests;
+			productName = FLAC808Tests;
+			productReference = 4AE7CCF6207E4E8400B5A434 /* FLAC808Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AE7CD00207E4E8400B5A434 /* FLAC808UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AE7CD10207E4E8400B5A434 /* Build configuration list for PBXNativeTarget "FLAC808UITests" */;
+			buildPhases = (
+				4AE7CCFD207E4E8400B5A434 /* Sources */,
+				4AE7CCFE207E4E8400B5A434 /* Frameworks */,
+				4AE7CCFF207E4E8400B5A434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AE7CD03207E4E8400B5A434 /* PBXTargetDependency */,
+			);
+			name = FLAC808UITests;
+			productName = FLAC808UITests;
+			productReference = 4AE7CD01207E4E8400B5A434 /* FLAC808UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AE7CCD8207E4E8200B5A434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Colnam;
+				TargetAttributes = {
+					4AE7CCDF207E4E8200B5A434 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4AE7CCF5207E4E8400B5A434 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4AE7CCDF207E4E8200B5A434;
+					};
+					4AE7CD00207E4E8400B5A434 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4AE7CCDF207E4E8200B5A434;
+					};
+				};
+			};
+			buildConfigurationList = 4AE7CCDB207E4E8200B5A434 /* Build configuration list for PBXProject "FLAC808" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AE7CCD7207E4E8200B5A434;
+			productRefGroup = 4AE7CCE1207E4E8200B5A434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AE7CCDF207E4E8200B5A434 /* FLAC808 */,
+				4AE7CCF5207E4E8400B5A434 /* FLAC808Tests */,
+				4AE7CD00207E4E8400B5A434 /* FLAC808UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AE7CCDE207E4E8200B5A434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5AD1D120833EEB0056FF34 /* 03 - Source Direct - Black Domina.flac in Resources */,
+				4A5AD1CF20833EEB0056FF34 /* 02 - Source Direct - Computer State.flac in Resources */,
+				4AE7CCF0207E4E8400B5A434 /* LaunchScreen.storyboard in Resources */,
+				4A5AD1D020833EEB0056FF34 /* 04 - Source Direct - Enemy Lines.flac in Resources */,
+				4AE7CCED207E4E8400B5A434 /* Assets.xcassets in Resources */,
+				4A5AD1D320833EEB0056FF34 /* 01 - Source Direct - Call & Response.flac in Resources */,
+				4AE7CCEB207E4E8300B5A434 /* Main.storyboard in Resources */,
+				4A5AD1D220833EEB0056FF34 /* 01. Лоси.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE7CCF4207E4E8400B5A434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE7CCFF207E4E8400B5A434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AE7CCDC207E4E8200B5A434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE7CCE8207E4E8300B5A434 /* SecondViewController.swift in Sources */,
+				4AE7CCE4207E4E8200B5A434 /* AppDelegate.swift in Sources */,
+				4AE7CCE6207E4E8200B5A434 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE7CCF2207E4E8400B5A434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE7CCFB207E4E8400B5A434 /* FLAC808Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE7CCFD207E4E8400B5A434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE7CD06207E4E8400B5A434 /* FLAC808UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AE7CCF8207E4E8400B5A434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AE7CCDF207E4E8200B5A434 /* FLAC808 */;
+			targetProxy = 4AE7CCF7207E4E8400B5A434 /* PBXContainerItemProxy */;
+		};
+		4AE7CD03207E4E8400B5A434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AE7CCDF207E4E8200B5A434 /* FLAC808 */;
+			targetProxy = 4AE7CD02207E4E8400B5A434 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AE7CCE9207E4E8300B5A434 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AE7CCEA207E4E8300B5A434 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AE7CCEE207E4E8400B5A434 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AE7CCEF207E4E8400B5A434 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AE7CD08207E4E8400B5A434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AE7CD09207E4E8400B5A434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AE7CD0B207E4E8400B5A434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FLAC808/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.FLAC808";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AE7CD0C207E4E8400B5A434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FLAC808/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.FLAC808";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AE7CD0E207E4E8400B5A434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FLAC808Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.FLAC808Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLAC808.app/FLAC808";
+			};
+			name = Debug;
+		};
+		4AE7CD0F207E4E8400B5A434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FLAC808Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.FLAC808Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLAC808.app/FLAC808";
+			};
+			name = Release;
+		};
+		4AE7CD11207E4E8400B5A434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FLAC808UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.FLAC808UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FLAC808;
+			};
+			name = Debug;
+		};
+		4AE7CD12207E4E8400B5A434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FLAC808UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.FLAC808UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FLAC808;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AE7CCDB207E4E8200B5A434 /* Build configuration list for PBXProject "FLAC808" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE7CD08207E4E8400B5A434 /* Debug */,
+				4AE7CD09207E4E8400B5A434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AE7CD0A207E4E8400B5A434 /* Build configuration list for PBXNativeTarget "FLAC808" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE7CD0B207E4E8400B5A434 /* Debug */,
+				4AE7CD0C207E4E8400B5A434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AE7CD0D207E4E8400B5A434 /* Build configuration list for PBXNativeTarget "FLAC808Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE7CD0E207E4E8400B5A434 /* Debug */,
+				4AE7CD0F207E4E8400B5A434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AE7CD10207E4E8400B5A434 /* Build configuration list for PBXNativeTarget "FLAC808UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE7CD11207E4E8400B5A434 /* Debug */,
+				4AE7CD12207E4E8400B5A434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AE7CCD8207E4E8200B5A434 /* Project object */;
+}
